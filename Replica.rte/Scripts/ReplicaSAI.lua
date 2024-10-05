@@ -16,17 +16,17 @@ function Create(self)
 	if math.random(0, 1) == 0 then
 		self.voiceSounds = {
 		Death = CreateSoundContainer("VOOC Death VariantOne", "Replica.rte"),
-		Spot = CreateSoundContainer("VOOC Spot VariantOne", "Replica.rte"), -- VOOC Spot VariantOne
-		suppressedLow = CreateSoundContainer("VOOC Death VariantOne", "Replica.rte"), -- VOO Suppressed Replica
-		suppressedMedium = CreateSoundContainer("VOOC Death VariantOne", "Replica.rte"), -- VOOC Suppressed ReplicaM
-		suppressedHigh = CreateSoundContainer("VOOC Death VariantOne", "Replica.rte"),}; -- VOOC Suppressed ReplicaH
+		Spot = CreateSoundContainer("VOOC Spot VariantOne", "Replica.rte"),
+		suppressedLow = CreateSoundContainer("VOOC Suppressed ReplicaL", "Replica.rte"),
+		suppressedMedium = CreateSoundContainer("VOOC Suppressed ReplicaM", "Replica.rte"), 
+		suppressedHigh = CreateSoundContainer("VOOC Suppressed ReplicaH", "Replica.rte"),}; 
 	else
 		self.voiceSounds = {
 		Death = CreateSoundContainer("VOOC Death VariantOne", "Replica.rte"),
-		Spot = CreateSoundContainer("VOOC Spot VariantOne", "Replica.rte"), -- VOOC Spot VariantOne
-		suppressedLow = CreateSoundContainer("VOOC Death VariantOne", "Replica.rte"), -- VOO Suppressed Replica
-		suppressedMedium = CreateSoundContainer("VOOC Death VariantOne", "Replica.rte"), -- VOOC Suppressed ReplicaM
-		suppressedHigh = CreateSoundContainer("VOOC Death VariantOne", "Replica.rte"),}; -- VOOC Suppressed ReplicaH
+		Spot = CreateSoundContainer("VOOC Spot VariantOne", "Replica.rte"),
+		suppressedLow = CreateSoundContainer("VOOC Suppressed ReplicaL", "Replica.rte"), 
+		suppressedMedium = CreateSoundContainer("VOOC Suppressed ReplicaM", "Replica.rte"), 
+		suppressedHigh = CreateSoundContainer("VOOC Suppressed ReplicaH", "Replica.rte"),}; 
 	end
 	
 	self.voiceSound = CreateSoundContainer("VOOC PAIN", "Replica.rte");
